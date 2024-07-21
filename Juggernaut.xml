@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.2">
-			<file name="Juggernaut.xml"/>
-		</update>
-	</info>	
+	<name>Juggernaut</name>
+	<description>Added juggernaut subclass</description>
+	<author url="https://github.com/JackReaping">Jack Reaping</author>
+	<update version="0.2.5">
+	<file name="Juggernaut.xml" url="https://raw.githubusercontent.com/JackReaping/Juggernaut/main/Juggernaut.xml"/>
+	</update>
+	</info>
 	<element name="Warforged" type="Race" source="Arcana Unearthed" id="ID_WOTC_AU_RACE_WARFORGED">
 		<description>
 			<p>The warforged were built to fight in the Last War. While the first warforged were mindless automatons, House Cannith devoted vast resources to improving these steel soldiers. An unexpected breakthrough produced sapient soldiers, giving rise to what some have only grudgingly accepted as a new species. Warforged are made from wood and metal, but they can feel pain and emotion. Built as weapons, they must now find a purpose beyond war. A warforged can be a steadfast ally, a cold-hearted killer, or a visionary in search of meaning.</p>
@@ -99,7 +102,7 @@
 			<select type="Language" name="Language, Warforged" supports="Standard||Exotic" />
 		</rules>
 	</element>
-	<element name="Warforged Resilience" type="Racial Trait" source="Arcana Unearthed" id="ID_WOTC_AU_RACIAL_TRAIT_WARFORGED_CONSTRUCTED_RESILIENCE">
+	<element name="Warforged Resilience" type="Racial Trait" source="Arcana Unearthed" id="ID_WOTC_AU_RACIAL_TRAIT_WARFORGED_RESILIENCE">
 		<description>
 			<p>You were created to have remarkable fortitude, represented by the following benefits:</p>
 			<ul>
